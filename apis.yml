@@ -1,7 +1,28 @@
 aid: rightpoint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rightpoint.png
 name: Rightpoint
-description: Rightpoint is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rightpoint is a global experience consultancy, now fully integrated into the
+  Genpact brand, that designs and builds customer and employee experiences for
+  enterprise organizations. Its practice spans agentic experience, digital
+  workspace, experience advisory, intelligent content, omnichannel experience,
+  and personalization and experimentation, delivered through deep platform
+  partnerships with Adobe, Microsoft, Optimizely, and Sitecore. As a services
+  and consulting firm rather than an API product company, Rightpoint publishes
+  no public developer portal, API documentation, or machine-readable API
+  surface; this profile captures its identity and web presence within the API
+  Evangelist network. It was surfaced as a portfolio company of Canaan Partners.
 url: https://raw.githubusercontent.com/api-evangelist/rightpoint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +32,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Consulting
+- Digital Experience
+- Customer Experience
+- Employee Experience
+- Personalization
+- Content
+- Genpact
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/rightpoint-domain-security.yml
+- type: Website
+  url: https://www.rightpoint.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
